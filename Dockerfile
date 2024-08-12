@@ -7,7 +7,7 @@ FROM nginx:latest
 
 # Copy your website files to the Nginx web root directory
 # Adjust the source path as needed to match your local setup
-COPY ./html /usr/share/nginx/html
+#COPY ./html /usr/share/nginx/html
 
 # Expose the default Nginx port
 EXPOSE 80
